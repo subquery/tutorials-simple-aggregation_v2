@@ -3,11 +3,11 @@ type StakingReward @entity{
   account: SumReward!
   balance: BigInt!
   date: Date!
-  blockHeight: Int!
+  blockheight: Int
 }
 
 type SumReward @entity{
   id: ID! # AccountId
   totalReward: BigInt!
-  blockheight: Int!
+  blockheight: Int
 }
